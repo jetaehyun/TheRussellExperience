@@ -9,9 +9,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject playerPrefab;
     private static GameObject instance;
     Transform mainCamera;
-    private Vector3Int startLocation;
     private MapManager mapManager;
-
     private MessageUi messageUi;
     private GameObject player;
     public static bool blockPlayerAction { get; private set; }
@@ -49,12 +47,15 @@ public class PlayerManager : MonoBehaviour
     private void initPlayer(Vector3 startLocation)
     {
         if (mainCamera == null)
+        {
             mainCamera = Camera.main.transform;
+            Camera.main.GetComponent<Camera>().backgroundColor = new Color32(35, 35, 50, 255);
+        }
 
         startLocation.z = 0;
 
         player = Instantiate(playerPrefab, startLocation, Quaternion.identity) as GameObject;
-
+        Debug.Log($"Initializing player to: {startLocation}");
         // set camera to player and position main camera at bird view
         mainCamera.SetParent(player.transform);
         Vector3 pos = startLocation;

@@ -10,6 +10,7 @@ TagManager:
   - LeoRoom
   - NickRoom
   - WillRoom
+  - NickCloset
   layers:
   - Default
   - TransparentFX

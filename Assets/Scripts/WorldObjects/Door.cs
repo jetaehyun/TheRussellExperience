@@ -1,11 +1,11 @@
 using System.Collections;
+using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class Door : MonoBehaviour
 {
-
     private SceneSwitcher sceneManager;
     public GameObject playerPromptPrefab;
     private GameObject playerPrompt;
@@ -60,6 +60,7 @@ public class Door : MonoBehaviour
             if (keyVal.Value.Equals(sceneManager.location.prev))
             {
                 mapManager.spawnPoint = tileMap.GetCellCenterWorld(keyVal.Key);
+                Debug.Log($"Setting spawnpoint: {mapManager.spawnPoint}");
             }
         }
 
@@ -86,21 +87,39 @@ public class Door : MonoBehaviour
         {
             Vector3Int pos = tileMap.WorldToCell(child.position);
             sceneNames.Add(pos, child.tag);
-            Debug.Log($"Adding: {child.tag}");
+            Debug.Log($"Adding: {child.tag}, Location: {child.position}");
         }
+
+    }
+
+    private string GetProperRoomName(string roomName)
+    {
+
+        if (roomName.Equals(SceneNames.WILL_ROOM))
+        {
+            return "Will and Johnny's room";
+        }
+
+        string[] split = Regex.Split(roomName, @"(?<!^)(?=[A-Z])");
+
+        if (split.Length < 2) { return ""; }
+
+        return $"{split[0]}'s {split[1]}";
+
 
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         inProximity = true;
-
         doorKey = tileMap.WorldToCell(other.transform.position);
-        Vector3Int signPos = Calculate.getClosestTile(doorKey, doorPositions);
 
         if (sceneNames.TryGetValue(doorKey, out string sceneName))
         {
-            messageUi.OpenMessageBox($"Enter {sceneName}?");
+
+            string roomName = (sceneName.Equals(SceneNames.MAIN_ROOM)) ? "Main room" : GetProperRoomName(sceneName);
+
+            messageUi.OpenMessageBox($"Enter {roomName}?");
         }
         else
         {
@@ -111,6 +130,5 @@ public class Door : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         inProximity = false;
-
     }
 }

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WillRoom.unity
     guid: 66394dadc95d541eda90743a0fa5da31
+  - enabled: 1
+    path: Assets/Scenes/NickCloset.unity
+    guid: a1e77517fe7dc40d9ab87311e28bb206
   m_configObjects: {}
