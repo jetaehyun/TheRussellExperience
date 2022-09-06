@@ -3149,6 +3149,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPrefab: {fileID: 6381467870525012111, guid: 02c49cd2c28d34e6ea796dd75499be93, type: 3}
+  leoPrefab: {fileID: 6381467870525012111, guid: cf1641152b9604bedb131d70ec25bb2b, type: 3}
+  willPrefab: {fileID: 6381467870525012111, guid: 123aff8524be849ee951b2091b640e93, type: 3}
+  johnnyPrefab: {fileID: 6381467870525012111, guid: ca23f0b9ddb1c4795ac9e3c16fab97c3, type: 3}
 --- !u!4 &1552240378
 Transform:
   m_ObjectHideFlags: 0

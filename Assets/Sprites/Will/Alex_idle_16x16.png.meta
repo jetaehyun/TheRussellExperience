@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 46874bcef9c2b44839a718059ac0b5e5
+guid: 7c9c1b721b7944e5ab4fa2fcebee7c89
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bob_idle_16x16_0
+      name: Alex_idle_16x16_0
       rect:
         serializedVersion: 2
         x: 0
@@ -142,14 +142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebc59c7a7f13a4b6b9422c9f98d85398
-      internalID: -829840185
+      spriteID: d7731a7218b8544bb9cb2c6a1336ccbc
+      internalID: -1413361610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_idle_16x16_1
+      name: Alex_idle_16x16_1
       rect:
         serializedVersion: 2
         x: 16
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f8f1ad22b9e8411e9767f9992598e34
-      internalID: 1711584396
+      spriteID: 20d20ddd8765f4e16acfdb61971cc683
+      internalID: 928997077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_idle_16x16_2
+      name: Alex_idle_16x16_2
       rect:
         serializedVersion: 2
         x: 32
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bf617c5b669e4c6885abfa261a07b20
-      internalID: -223396995
+      spriteID: 394c17e54aebb4437add319435605d3c
+      internalID: 901252739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_idle_16x16_3
+      name: Alex_idle_16x16_3
       rect:
         serializedVersion: 2
         x: 48
@@ -205,8 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6155fa01c8a474725b0bbc3db3fa1ff0
-      internalID: -681227288
+      spriteID: a1990b238c81649baa7c9276cb5db2a4
+      internalID: -204232796
       vertices: []
       indices: 
       edges: []
@@ -222,10 +222,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bob_idle_16x16_0: -829840185
-      Bob_idle_16x16_2: -223396995
-      Bob_idle_16x16_3: -681227288
-      Bob_idle_16x16_1: 1711584396
+      Alex_idle_16x16_1: 928997077
+      Alex_idle_16x16_3: -204232796
+      Alex_idle_16x16_0: -1413361610
+      Alex_idle_16x16_2: 901252739
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

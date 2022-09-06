@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 09045fc4bd0e743a6ba1f6d4ebcb9f52
+guid: 78af49897b09743dd84b457c21445d79
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bob_run_16x16_0
+      name: Alex_idle_anim_16x16_0
       rect:
         serializedVersion: 2
         x: 0
@@ -142,14 +142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 369dd9189ad67441d905cc0371343e03
-      internalID: -1484196904
+      spriteID: 5f166e71ecbb44998b2b760c8a264121
+      internalID: 2093535655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_1
+      name: Alex_idle_anim_16x16_1
       rect:
         serializedVersion: 2
         x: 16
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a31719f1cb42c4bfea4b24a4fde88624
-      internalID: 563792039
+      spriteID: 04dfe0032d3c74c7aa0e58dad70a71e6
+      internalID: -1092486467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_2
+      name: Alex_idle_anim_16x16_2
       rect:
         serializedVersion: 2
         x: 32
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c564ca528e68e4637a34a928db40d1bd
-      internalID: -533308534
+      spriteID: a78043a86e1b340b2911a9e7c22e299b
+      internalID: -1653875598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_3
+      name: Alex_idle_anim_16x16_3
       rect:
         serializedVersion: 2
         x: 48
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bec94521dc3a4bfeab273385fcc2228
-      internalID: 1303540586
+      spriteID: 28c69f60a959e467d809c68237b5cc09
+      internalID: 1628275162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_4
+      name: Alex_idle_anim_16x16_4
       rect:
         serializedVersion: 2
         x: 64
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2a5f8b34781340d08be3ee202f463e6
-      internalID: 39449810
+      spriteID: d0a098ae836124aa5ae2cd6a0f5d5e05
+      internalID: 577073512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_5
+      name: Alex_idle_anim_16x16_5
       rect:
         serializedVersion: 2
         x: 80
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f43b4b25fbad14ef5b9aae33595c85fa
-      internalID: -1631085968
+      spriteID: 9cd9bff3392f24603b59a806343ed1c9
+      internalID: -980746630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_6
+      name: Alex_idle_anim_16x16_6
       rect:
         serializedVersion: 2
         x: 96
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fbcf330a0e1f439e9b6145f588d8c90
-      internalID: 62822386
+      spriteID: 06b0a8fd991974fd19720efa18abb508
+      internalID: 339341349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_7
+      name: Alex_idle_anim_16x16_7
       rect:
         serializedVersion: 2
         x: 112
@@ -289,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a60e0a081bb546d8a8cdf8c077f8d91
-      internalID: -1160663916
+      spriteID: e49d1cc1e174e40c7806a13023fc2122
+      internalID: -328494927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_8
+      name: Alex_idle_anim_16x16_8
       rect:
         serializedVersion: 2
         x: 128
@@ -310,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 002959f5477a94f0b929a4dfe5241ae2
-      internalID: -932628307
+      spriteID: 9560422e180dc4daba9fb919ca97c3df
+      internalID: -1807261505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_9
+      name: Alex_idle_anim_16x16_9
       rect:
         serializedVersion: 2
         x: 144
@@ -331,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fbe581c63c5041bb82c7f65c13c0852
-      internalID: -1734358068
+      spriteID: ffb63e6fb141c4c62ad63ac8d6f2463b
+      internalID: 1111413647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_10
+      name: Alex_idle_anim_16x16_10
       rect:
         serializedVersion: 2
         x: 160
@@ -352,14 +352,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6fbdbeba8207497a957c971259ab9eb
-      internalID: -1530637523
+      spriteID: f9eee5eb5b5be44908bafa7efd3df5b2
+      internalID: -394388151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_11
+      name: Alex_idle_anim_16x16_11
       rect:
         serializedVersion: 2
         x: 176
@@ -373,14 +373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9396a74281da4f7d80b3672b03dd7b2
-      internalID: 2027125358
+      spriteID: 8d7eea16fc42f44e8bf24453e5fb1b19
+      internalID: 516704905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_12
+      name: Alex_idle_anim_16x16_12
       rect:
         serializedVersion: 2
         x: 192
@@ -394,14 +394,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 665a39781e73f4561974181ef46fca85
-      internalID: 820989477
+      spriteID: 55613f318d8fe4c8f9a892ae2581159b
+      internalID: 1332298800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_13
+      name: Alex_idle_anim_16x16_13
       rect:
         serializedVersion: 2
         x: 208
@@ -415,14 +415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc1998b3a23464a8ebdf4dc4dece245b
-      internalID: 544304962
+      spriteID: 0cc97352060ba41c583664015427aaac
+      internalID: -51313756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_14
+      name: Alex_idle_anim_16x16_14
       rect:
         serializedVersion: 2
         x: 224
@@ -436,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed4259da02c68432bb770c2886264532
-      internalID: -1655988615
+      spriteID: 69f9d05f7a1cc4d5bbbd0aa4463df6ed
+      internalID: -666343902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_15
+      name: Alex_idle_anim_16x16_15
       rect:
         serializedVersion: 2
         x: 240
@@ -457,14 +457,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbf644024f04749039bda1d9cc048020
-      internalID: -2039118684
+      spriteID: 9ce2587e3535f4583b2dd040dc2234b8
+      internalID: 1650419252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_16
+      name: Alex_idle_anim_16x16_16
       rect:
         serializedVersion: 2
         x: 256
@@ -478,14 +478,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54f263571d128433391ca832c29c2ee6
-      internalID: 1569886603
+      spriteID: 6ebb21969e7794fb2847da974a7e1e79
+      internalID: 416406753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_17
+      name: Alex_idle_anim_16x16_17
       rect:
         serializedVersion: 2
         x: 272
@@ -499,14 +499,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72fb43451529b4e0f8d5bc26d3d87a41
-      internalID: -493213068
+      spriteID: 99bde82333f5e4c0091d72dbeaa59aaf
+      internalID: 1583410232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_18
+      name: Alex_idle_anim_16x16_18
       rect:
         serializedVersion: 2
         x: 288
@@ -520,14 +520,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8049e75c482714b9f9e577346e802ad8
-      internalID: -148933023
+      spriteID: baa0e27a05c5c4326a417d068b344c10
+      internalID: 127091049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_19
+      name: Alex_idle_anim_16x16_19
       rect:
         serializedVersion: 2
         x: 304
@@ -541,14 +541,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 252e54907db60421ea0b8315f1aef5b3
-      internalID: 646066964
+      spriteID: e6517a1d94b0b451291cd05434ae235d
+      internalID: 1639523982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_20
+      name: Alex_idle_anim_16x16_20
       rect:
         serializedVersion: 2
         x: 320
@@ -562,14 +562,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed4c9dab3237a45aca531395d0b2a093
-      internalID: 366636324
+      spriteID: 956b39237de6e404aaedb529a98dc8dd
+      internalID: -355216998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_21
+      name: Alex_idle_anim_16x16_21
       rect:
         serializedVersion: 2
         x: 336
@@ -583,14 +583,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c35b42333a7284070b384513ceae7d03
-      internalID: 2138646747
+      spriteID: fcb6ad95de2024afe82f8523e989ce99
+      internalID: -1884063706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_22
+      name: Alex_idle_anim_16x16_22
       rect:
         serializedVersion: 2
         x: 352
@@ -604,14 +604,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b569f7e7cfa64f35a5917fc781a676f
-      internalID: -820269932
+      spriteID: 5a6507eed6eef4aef86e949afe958ad5
+      internalID: 714856472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_run_16x16_23
+      name: Alex_idle_anim_16x16_23
       rect:
         serializedVersion: 2
         x: 368
@@ -625,8 +625,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 757fe0e0ed96a4ea98556f5ca2291137
-      internalID: -998522254
+      spriteID: faa1222837ccb4ae3b48481ac23dd39e
+      internalID: -619812437
       vertices: []
       indices: 
       edges: []
@@ -642,30 +642,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bob_run_16x16_15: -2039118684
-      Bob_run_16x16_18: -148933023
-      Bob_run_16x16_20: 366636324
-      Bob_run_16x16_8: -932628307
-      Bob_run_16x16_17: -493213068
-      Bob_run_16x16_10: -1530637523
-      Bob_run_16x16_13: 544304962
-      Bob_run_16x16_16: 1569886603
-      Bob_run_16x16_2: -533308534
-      Bob_run_16x16_19: 646066964
-      Bob_run_16x16_21: 2138646747
-      Bob_run_16x16_0: -1484196904
-      Bob_run_16x16_6: 62822386
-      Bob_run_16x16_14: -1655988615
-      Bob_run_16x16_7: -1160663916
-      Bob_run_16x16_23: -998522254
-      Bob_run_16x16_9: -1734358068
-      Bob_run_16x16_22: -820269932
-      Bob_run_16x16_12: 820989477
-      Bob_run_16x16_1: 563792039
-      Bob_run_16x16_5: -1631085968
-      Bob_run_16x16_4: 39449810
-      Bob_run_16x16_3: 1303540586
-      Bob_run_16x16_11: 2027125358
+      Alex_idle_anim_16x16_15: 1650419252
+      Alex_idle_anim_16x16_7: -328494927
+      Alex_idle_anim_16x16_0: 2093535655
+      Alex_idle_anim_16x16_23: -619812437
+      Alex_idle_anim_16x16_4: 577073512
+      Alex_idle_anim_16x16_6: 339341349
+      Alex_idle_anim_16x16_1: -1092486467
+      Alex_idle_anim_16x16_11: 516704905
+      Alex_idle_anim_16x16_20: -355216998
+      Alex_idle_anim_16x16_22: 714856472
+      Alex_idle_anim_16x16_12: 1332298800
+      Alex_idle_anim_16x16_5: -980746630
+      Alex_idle_anim_16x16_2: -1653875598
+      Alex_idle_anim_16x16_8: -1807261505
+      Alex_idle_anim_16x16_13: -51313756
+      Alex_idle_anim_16x16_21: -1884063706
+      Alex_idle_anim_16x16_19: 1639523982
+      Alex_idle_anim_16x16_9: 1111413647
+      Alex_idle_anim_16x16_10: -394388151
+      Alex_idle_anim_16x16_17: 1583410232
+      Alex_idle_anim_16x16_18: 127091049
+      Alex_idle_anim_16x16_3: 1628275162
+      Alex_idle_anim_16x16_14: -666343902
+      Alex_idle_anim_16x16_16: 416406753
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

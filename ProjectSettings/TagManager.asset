@@ -11,6 +11,9 @@ TagManager:
   - NickRoom
   - WillRoom
   - NickCloset
+  - leo
+  - johnny
+  - will
   layers:
   - Default
   - TransparentFX

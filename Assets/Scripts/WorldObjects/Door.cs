@@ -2,6 +2,7 @@ using System.Collections;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
 
 public class Door : MonoBehaviour
@@ -28,9 +29,10 @@ public class Door : MonoBehaviour
         initSceneNames();
         UpdateMapManager();
 
-
+        // SceneManager.sceneLoaded += OnSceneLoaded;
         playerPrompt = Instantiate(playerPromptPrefab, Vector3.zero, Quaternion.identity, this.transform);
         inProximity = false;
+
     }
 
     private void Update()
@@ -47,8 +49,12 @@ public class Door : MonoBehaviour
                 Debug.Log($"{doorKey}: Key not found...");
             }
         }
-
     }
+
+    // void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    // {
+
+    // }
 
     private void UpdateMapManager()
     {
@@ -89,7 +95,6 @@ public class Door : MonoBehaviour
             sceneNames.Add(pos, child.tag);
             Debug.Log($"Adding: {child.tag}, Location: {child.position}");
         }
-
     }
 
     private string GetProperRoomName(string roomName)
@@ -116,7 +121,6 @@ public class Door : MonoBehaviour
 
         if (sceneNames.TryGetValue(doorKey, out string sceneName))
         {
-
             string roomName = (sceneName.Equals(SceneNames.MAIN_ROOM)) ? "Main room" : GetProperRoomName(sceneName);
 
             messageUi.OpenMessageBox($"Enter {roomName}?");
