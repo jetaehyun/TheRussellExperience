@@ -82,7 +82,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.12307692, y: 0.24615385}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -123,6 +123,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runSpeed: 0.8
   speedLimiter: 0.5
+  spriteRenderer: {fileID: 7286159280659373359}
+  spriteArray:
+  - {fileID: 1711584396, guid: 46874bcef9c2b44839a718059ac0b5e5, type: 3}
+  - {fileID: -681227288, guid: 46874bcef9c2b44839a718059ac0b5e5, type: 3}
+  - {fileID: -223396995, guid: 46874bcef9c2b44839a718059ac0b5e5, type: 3}
+  - {fileID: -829840185, guid: 46874bcef9c2b44839a718059ac0b5e5, type: 3}
+  - {fileID: -681227288, guid: 46874bcef9c2b44839a718059ac0b5e5, type: 3}
 --- !u!95 &4752929229278839755
 Animator:
   serializedVersion: 4

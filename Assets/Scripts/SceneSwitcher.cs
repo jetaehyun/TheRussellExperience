@@ -1,14 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+
+public enum Rooms
+{
+    MainRoom,
+    TedRoom,
+    LeoRoom,
+    WillRoom,
+    NickRoom,
+    NickCloset
+}
+
 public class SceneSwitcher : MonoBehaviour
 {
     [SerializeField] private AudioClip openDoor;
     [SerializeField] private AudioClip closeDoor;
     private AudioSource audioSource;
 
-    public (string prev, string curr) location;
+    private (string prev, string curr) location;
     private static GameObject instance;
 
     private void Start()
@@ -36,8 +48,8 @@ public class SceneSwitcher : MonoBehaviour
 
         location = (location.curr, dest);
         PlaySound(openDoor);
-        
-        Debug.Log($"Loading: {dest}");
+
+        Debug.Log($"Loading: {dest}, Old Location: {location.prev}, New Location: {location.curr}");
         SceneManager.LoadScene(dest);
 
 
@@ -54,6 +66,15 @@ public class SceneSwitcher : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         PlaySound(closeDoor);
+
+        var es = FindObjectsOfType<EventSystem>();
+        if (es.Length > 1)
+        {
+            for (int i = 1; i < es.Length; i++)
+            {
+                Destroy(es[i].gameObject);
+            }
+        }
     }
 
     private void PlaySound(AudioClip clip)

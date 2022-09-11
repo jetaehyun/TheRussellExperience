@@ -18,7 +18,7 @@ public class PlayerManager : MonoBehaviour
     private MessageUi messageUi;
     private GameObject player;
     public static bool blockPlayerAction { get; private set; }
-
+    private bool firstSpawn;
     private List<GameObject> npcList;
 
     // Start is called before the first frame update
@@ -37,6 +37,7 @@ public class PlayerManager : MonoBehaviour
         messageUi = GameObject.Find("Canvas").GetComponent<MessageUi>();
         sceneSwitcher = GameObject.Find("SceneSwitcher").GetComponent<SceneSwitcher>();
         npcList = new List<GameObject>();
+        firstSpawn = false;
         mainCamera = Camera.main.transform;
         SceneManager.sceneUnloaded += OnSceneUnloaded;
 
@@ -45,11 +46,20 @@ public class PlayerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (mapManager.sceneChange)
+        if (mapManager.sceneChange && firstSpawn)
         {
-            initNpc(sceneSwitcher.location.curr, mapManager.npcSpawnPoints);
-            initPlayer(mapManager.spawnPoint);
+            initNpc(mapManager.npcSpawnPoints);
+            initPlayer(mapManager.playerSpawnPoint);
             mapManager.sceneChange = false;
+        }
+
+        if (!firstSpawn)
+        {
+            GameObject initSpawnPoint = GameObject.Find("InitialSpawnPoint");
+
+            if (initSpawnPoint == null) { return; }
+            initPlayer(initSpawnPoint.transform.position);
+            firstSpawn = true;
         }
 
         blockPlayerAction = (messageUi.isOpen) ? true : false;
@@ -75,7 +85,10 @@ public class PlayerManager : MonoBehaviour
         startLocation.y = startLocation.y + 0.05f;
 
         player = Instantiate(playerPrefab, startLocation, Quaternion.identity) as GameObject;
+        // player.GetComponent<Character>().SetIdleDirection(spawnDirection.ToString());
         Debug.Log($"Initializing player to: {startLocation}");
+
+
         // set camera to player and position main camera at bird view
         mainCamera.SetParent(player.transform);
         Vector3 pos = startLocation;
@@ -84,7 +97,7 @@ public class PlayerManager : MonoBehaviour
 
     }
 
-    private void initNpc(string roomName, List<NpcData> npcData)
+    private void initNpc(List<NpcData> npcData)
     {
 
         if (npcData.Capacity == 0) { return; }

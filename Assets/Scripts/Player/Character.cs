@@ -5,38 +5,23 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
 
-    private enum Direction
-    {
-        RunUp,
-        RunDown,
-        RunLeft,
-        RunRight,
-        Idle
-    }
-
-    private enum IdleDirection
-    {
-        IdleUp,
-        IdleDown,
-        IdleLeft,
-        IdleRight
-    }
-
     private Rigidbody2D rb;
     private float horizontal;
     private float vertical;
     public float runSpeed = .8f;
     public float speedLimiter = .5f;
-
     private Animator animator;
-
     private Direction prevDirection;
+    private MapManager mapManager;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        prevDirection = Direction.RunDown;
+        mapManager = GameObject.Find("MapManager").GetComponent<MapManager>();
+        prevDirection = mapManager.GetSpawnDirection();
+        SetIdleDirection(prevDirection);
+
     }
 
     private void Update()
@@ -57,7 +42,6 @@ public class Character : MonoBehaviour
 
         if (horizontal != 0 || vertical != 0)
         {
-
             if (horizontal != 0 && vertical != 0)
             {
                 horizontal *= speedLimiter;
@@ -67,25 +51,13 @@ public class Character : MonoBehaviour
 
             if (vertical == 0 && horizontal != 0)
             {
-                if (horizontal > 0)
-                {
-                    setMovementAnimation(Direction.RunRight, true);
-                }
-                else
-                {
-                    setMovementAnimation(Direction.RunLeft, true);
-                }
+                if (horizontal > 0) { setMovementAnimation(Direction.Right); }
+                else { setMovementAnimation(Direction.Left); }
             }
             else if (horizontal == 0 && vertical != 0)
             {
-                if (vertical > 0)
-                {
-                    setMovementAnimation(Direction.RunUp, true);
-                }
-                else
-                {
-                    setMovementAnimation(Direction.RunDown, true);
-                }
+                if (vertical > 0) { setMovementAnimation(Direction.Up); }
+                else { setMovementAnimation(Direction.Down); }
             }
 
         }
@@ -96,37 +68,31 @@ public class Character : MonoBehaviour
         }
 
     }
+
+    private void SetIdleDirection(Direction dir)
+    {
+        if (animator == null)
+            animator = GetComponent<Animator>();
+        else if (dir == Direction.None)
+            return;
+
+        animator.Play("Idle" + dir.ToString());
+    }
+
     private void setIdleAnimation()
     {
-        switch (prevDirection)
-        {
-            case Direction.RunUp:
-                animator.Play(IdleDirection.IdleUp.ToString());
-                break;
-            case Direction.RunDown:
-                animator.Play(IdleDirection.IdleDown.ToString());
-                break;
-            case Direction.RunLeft:
-                animator.Play(IdleDirection.IdleLeft.ToString());
-                break;
-            case Direction.RunRight:
-                animator.Play(IdleDirection.IdleRight.ToString());
-                break;
-            case Direction.Idle:
-                break;
-            default:
-                animator.Play(IdleDirection.IdleDown.ToString());
-                break;
-        }
+        if (prevDirection == Direction.None) { return; }
+        SetIdleDirection(prevDirection);
 
-        prevDirection = Direction.Idle;
+        prevDirection = Direction.None;
     }
-    private void setMovementAnimation(Direction d, bool state)
+
+    private void setMovementAnimation(Direction d)
     {
 
         if (prevDirection == d) { return; }
 
-        animator.Play(d.ToString());
+        animator.Play("Run" + d.ToString());
         prevDirection = d;
     }
 }

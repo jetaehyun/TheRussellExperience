@@ -2,9 +2,14 @@ using UnityEngine;
 
 public class Npc : MonoBehaviour
 {
+    [SerializeField] private GameObject floatingTextPrefab;
+    private GameObject interactionIcon;
+    private FloatingText floatingText;
 
     private Animator animator;
     private Rigidbody2D rb;
+    private readonly string animationLabel = "floatingText";
+
 
     private void Start()
     {
@@ -12,8 +17,15 @@ public class Npc : MonoBehaviour
         animator = GetComponent<Animator>();
 
         rb.constraints = RigidbodyConstraints2D.FreezeAll;
-        Debug.Log("Idle" + gameObject.tag);
         animator.Play("Idle" + gameObject.tag);
+
+        Vector3 pos = gameObject.transform.position;
+        pos.y -= 0.05f;
+        interactionIcon = Instantiate(floatingTextPrefab, pos, Quaternion.identity) as GameObject;
+        floatingText = interactionIcon.GetComponent<FloatingText>();
+        interactionIcon.SetActive(false);
+
+        interactionIcon.transform.SetParent(gameObject.transform);
     }
 
     private void Update()
@@ -21,15 +33,18 @@ public class Npc : MonoBehaviour
 
     }
 
-    void OnCollisionEnter2D(Collision2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("Collided");
+        interactionIcon.SetActive(true);
+        floatingText.Activate(animationLabel);
+
         rb.velocity = Vector3.zero;
         rb.angularVelocity = 0f;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionExit2D(Collision2D other)
     {
-        Debug.Log("Collider");
+        floatingText.Deactivate();
+        interactionIcon.SetActive(false);
     }
 }
