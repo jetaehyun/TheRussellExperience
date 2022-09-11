@@ -9,13 +9,13 @@ public class Entrance : MonoBehaviour
 
     [SerializeField] private Rooms entranceTo;
     [SerializeField] private Rooms currRoom;
+    [SerializeField] private bool lockedRoom;
     public Direction entranceDirection;
     private MessageUi messageUi;
     private SceneSwitcher sceneManager;
     private MapManager mapManager;
     private PlayerManager playerManager;
     private bool inProximity;
-
 
     private void Start()
     {
@@ -30,6 +30,14 @@ public class Entrance : MonoBehaviour
     {
         if (inProximity && messageUi.decision == MessageUi.Click.ACCEPTED)
         {
+
+            if (lockedRoom)
+            {
+                messageUi.OpenMessageBox("The door appears to be locked...", false);
+                inProximity = false;
+                return;
+            }
+
             sceneManager.loadScene(entranceTo.ToString());
             mapManager.prevRoom = currRoom.ToString();
         }

@@ -5,13 +5,12 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-
-    public GameObject playerPrefab;
-
     [SerializeField] private GameObject leoPrefab;
     [SerializeField] private GameObject willPrefab;
     [SerializeField] private GameObject johnnyPrefab;
+    [SerializeField] private GameObject nickPrefab;
     private static GameObject instance;
+    public GameObject playerPrefab;
     private SceneSwitcher sceneSwitcher;
     Transform mainCamera;
     private MapManager mapManager;
@@ -85,7 +84,6 @@ public class PlayerManager : MonoBehaviour
         startLocation.y = startLocation.y + 0.05f;
 
         player = Instantiate(playerPrefab, startLocation, Quaternion.identity) as GameObject;
-        // player.GetComponent<Character>().SetIdleDirection(spawnDirection.ToString());
         Debug.Log($"Initializing player to: {startLocation}");
 
 
@@ -112,7 +110,8 @@ public class PlayerManager : MonoBehaviour
                     return Instantiate(johnnyPrefab, data.position, Quaternion.identity);
                 case "will":
                     return Instantiate(willPrefab, data.position, Quaternion.identity);
-
+                case "nick":
+                    return Instantiate(nickPrefab, data.position, Quaternion.identity);
                 default:
                     return null;
             }

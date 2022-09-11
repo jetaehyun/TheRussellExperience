@@ -5,6 +5,7 @@ public static class ManagerNames
     public static string PLAYER_PROMPT = "PlayerPrompt";
     public static string MAP_MANAGER = "MapManager";
     public static string PLAYER_MANAGER = "PlayerManager";
+    public static string MUSIC_MANAGER = "MusicManager";
 
 
 }

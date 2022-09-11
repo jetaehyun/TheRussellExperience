@@ -150,7 +150,8 @@ Transform:
   m_LocalPosition: {x: -0.364, y: 0.37594697, z: 0.09617135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1137957679}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1921,7 +1922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4631e7ea3bd774821b74bf5819f85ec8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 563635065}
+  audioClip: {fileID: 8300000, guid: 0d87c8e53e6f3484aad521316c0f590b, type: 3}
   floatingTextPrefab: {fileID: 2446239322518109047, guid: f291c5dad5c1b42f3974d5959edad84e, type: 3}
 --- !u!82 &563635065
 AudioSource:
@@ -2051,6 +2052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entranceTo: 5
   currRoom: 4
+  lockedRoom: 1
   entranceDirection: 2
 --- !u!61 &604831481
 BoxCollider2D:
@@ -2086,7 +2088,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604831479}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.429443, y: 0.45442832, z: -0.0931073}
+  m_LocalPosition: {x: 0.435, y: 0.45442832, z: -0.0931073}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2292,6 +2294,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1598206767}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1137957678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1137957679}
+  m_Layer: 0
+  m_Name: point1
+  m_TagString: nick
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1137957679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137957678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 66886848}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1174393897
@@ -2712,6 +2745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entranceTo: 0
   currRoom: 4
+  lockedRoom: 0
   entranceDirection: 0
 --- !u!61 &1598206766
 BoxCollider2D:

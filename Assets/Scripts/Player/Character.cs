@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-
     private Rigidbody2D rb;
     private float horizontal;
     private float vertical;
@@ -13,12 +12,11 @@ public class Character : MonoBehaviour
     private Animator animator;
     private Direction prevDirection;
     private MapManager mapManager;
-
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        mapManager = GameObject.Find("MapManager").GetComponent<MapManager>();
+        mapManager = GameObject.Find(ManagerNames.MAP_MANAGER).GetComponent<MapManager>();
         prevDirection = mapManager.GetSpawnDirection();
         SetIdleDirection(prevDirection);
 
@@ -29,7 +27,7 @@ public class Character : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
 
-        if (PlayerManager.blockPlayerAction)
+        if (PlayerManager.blockPlayerAction || CanvasManager.blockPlayerAction)
         {
             horizontal = 0f;
             vertical = 0f;
@@ -68,7 +66,6 @@ public class Character : MonoBehaviour
         }
 
     }
-
     private void SetIdleDirection(Direction dir)
     {
         if (animator == null)

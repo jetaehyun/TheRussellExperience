@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8196594841661944426}
   - component: {fileID: 7286159280659373359}
   - component: {fileID: 6068936240586701206}
-  - component: {fileID: 4752929229278839755}
   - component: {fileID: 6204549384653532469}
   - component: {fileID: 2402955278613352756}
+  - component: {fileID: 2525602975447833890}
   m_Layer: 0
   m_Name: Leo
   m_TagString: leo
@@ -109,26 +109,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!95 &4752929229278839755
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6381467870525012111}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ead64e710a8834de5aeef0e884fea6c2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!61 &6204549384653532469
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -142,7 +122,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.03545884}
+  m_Offset: {x: -0.00036182627, y: -0.04558994}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +133,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.12307692, y: 0.17523618}
+  m_Size: {x: 0.100643784, y: 0.19549838}
   m_EdgeRadius: 0
 --- !u!114 &2402955278613352756
 MonoBehaviour:
@@ -168,3 +148,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floatingTextPrefab: {fileID: 2446239322518109047, guid: f291c5dad5c1b42f3974d5959edad84e, type: 3}
+  sprites:
+  - {fileID: -1389132264, guid: 89742baecfbf64ed093abf1c32c612df, type: 3}
+  - {fileID: -2103260276, guid: 89742baecfbf64ed093abf1c32c612df, type: 3}
+  - {fileID: -249286087, guid: 89742baecfbf64ed093abf1c32c612df, type: 3}
+  - {fileID: 271437170, guid: 89742baecfbf64ed093abf1c32c612df, type: 3}
+  spriteRenderer: {fileID: 7286159280659373359}
+--- !u!95 &2525602975447833890
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6381467870525012111}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3109568e4429140238b2fc197b9ebc11, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

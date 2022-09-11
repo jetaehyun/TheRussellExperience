@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Tilemaps;
 
 public enum Direction
 {
@@ -86,10 +85,5 @@ public class MapManager : MonoBehaviour
     {
         npcSpawnPoints.Clear();
         entrancesDict.Clear();
-    }
-
-    private void Update()
-    {
-
     }
 }
