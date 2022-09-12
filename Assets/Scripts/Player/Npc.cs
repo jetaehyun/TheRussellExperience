@@ -66,20 +66,9 @@ public class Npc : MonoBehaviour
         }
     }
 
-    private float Angle2Player()
-    {
-        if (player == null) { return 0; }
-
-        Vector3 npcPos = gameObject.transform.position;
-        Vector3 playerPos = player.transform.position;
-
-        float angle = Mathf.Atan2(playerPos.y - npcPos.y, playerPos.x - npcPos.x) * (180 / Mathf.PI);
-        return (angle + 405) % 360; // easier to split into 4 directions
-    }
-
     private void SetNpcDirection()
     {
-        float angle = Angle2Player();
+        float angle = (player == null) ? 0f : Calculate.AngleBetween2Points(gameObject.transform.position, player.transform.position, 45);
         Direction dir = Direction.Down;
 
         if (angle < 90) { dir = Direction.Right; }

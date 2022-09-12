@@ -23,25 +23,9 @@ public static class Calculate
         return dest;
     }
 
-    // public static Vector3Int getSpawnPoint(Tilemap tilemap, Vector3Int origin)
-    // {
-    //     int[] x = {-1, 0, 0, 1};
-    //     int[] y = {0, -1, 1, 0};
-    //     Vector3Int sp = origin;
-
-    //     for (int i = 0; i < 4; i++) {
-
-    //         Vector3Int point = origin;
-
-    //         point.x += x[i];
-    //         point.y += y[i];
-    //         point.z = 0;
-
-    //         if (tilemap.HasTile(point) && tilemap.GetTile(point).)
-
-    //     }
-
-
-
-    // }
+    public static float AngleBetween2Points(Vector3 v1, Vector3 v2, float rotation=0)
+    {
+        float angle = Mathf.Atan2(v2.y - v1.y, v2.x - v1.x) * (180 / Mathf.PI);
+        return (angle + 360 + rotation) % 360; 
+    }
 }
