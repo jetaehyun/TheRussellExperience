@@ -27,7 +27,7 @@ public class MusicPlayer : MonoBehaviour
 
     private void Update()
     {
-        if (inProximity && Input.GetKeyDown(KeyCode.E) && !CanvasManager.blockPlayerAction)
+        if (inProximity && Input.GetKeyDown(KeyCode.E))
         {
             if (musicManager.isCurrentClip(audioClip))
             {

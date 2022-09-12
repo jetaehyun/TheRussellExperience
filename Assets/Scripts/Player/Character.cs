@@ -27,7 +27,7 @@ public class Character : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
 
-        if (PlayerManager.blockPlayerAction || CanvasManager.blockPlayerAction)
+        if (PlayerManager.blockPlayerAction || MenuHandler.isPaused)
         {
             horizontal = 0f;
             vertical = 0f;

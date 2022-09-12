@@ -35,7 +35,7 @@ public class Npc : MonoBehaviour
 
     private void Update()
     {
-        if (inProximity && Input.GetKeyDown(KeyCode.E) && !CanvasManager.blockPlayerAction)
+        if (inProximity && Input.GetKeyDown(KeyCode.E) && !MenuHandler.isPaused)
         {
             animator.enabled = false;
             SetNpcDirection();

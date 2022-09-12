@@ -4,7 +4,6 @@ public class CanvasManager : MonoBehaviour
 {
     private static GameObject instance;
     [SerializeField] private GameObject menuObject;
-    public static bool blockPlayerAction { get; private set; }
 
     private void Start()
     {
@@ -23,7 +22,6 @@ public class CanvasManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             menuObject.SetActive(!menuObject.activeSelf);
-            blockPlayerAction = menuObject.activeSelf;
         }
     }
 }
