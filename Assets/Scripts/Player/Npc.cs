@@ -61,6 +61,8 @@ public class Npc : MonoBehaviour
                 return "I like Five Guys.";
             case "nick":
                 return "Give me that bacon egg n cheese!";
+            case "arceus":
+                return "How'd you get in here?";
             default:
                 return "Who am I??";
         }

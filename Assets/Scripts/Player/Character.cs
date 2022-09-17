@@ -12,6 +12,8 @@ public class Character : MonoBehaviour
     private Animator animator;
     private Direction prevDirection;
     private MapManager mapManager;
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();

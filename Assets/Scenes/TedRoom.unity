@@ -3297,7 +3297,7 @@ MonoBehaviour:
   audioSource: {fileID: 1431905208}
   bossMusic: {fileID: 8300000, guid: 7fc9a599251214501ad5882d49b7133a, type: 3}
   defaultMusic: {fileID: 8300000, guid: 8a3e5a61b5c7b46aea9110d3dc004ab4, type: 3}
-  debugMode: 1
+  debugMode: 0
 --- !u!82 &1431905208
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4008,6 +4008,7 @@ MonoBehaviour:
   willPrefab: {fileID: 6381467870525012111, guid: 123aff8524be849ee951b2091b640e93, type: 3}
   johnnyPrefab: {fileID: 6381467870525012111, guid: ca23f0b9ddb1c4795ac9e3c16fab97c3, type: 3}
   nickPrefab: {fileID: 6381467870525012111, guid: 78d873b59c34e4b79b2959ecf340cf25, type: 3}
+  arceusPrefab: {fileID: 6381467870525012111, guid: 6619eeba88a5547b58a0ef5a6b8a724e, type: 3}
   playerPrefab: {fileID: 6381467870525012111, guid: 02c49cd2c28d34e6ea796dd75499be93, type: 3}
 --- !u!4 &1552240378
 Transform:

@@ -1,0 +1,1290 @@
+fileFormatVersion: 2
+guid: 5535c998a714e4ba0bd7e81e7354a92e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 337
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1c8ee90be5b45cbb6126b8291d60e2
+      internalID: -1485326593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 337
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe08638b0c5c4f0e8319a31912bca8b
+      internalID: -882670172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 336
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555a072615ac54ca5b6dddebc9cce0a1
+      internalID: -249309011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 336
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae80e7e34fb8f4888ba4a6bba32973c0
+      internalID: -935225260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_4
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 337
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a92cadf2bf5d498394db76be4a5c237
+      internalID: 1756793652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 337
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf469739146849d69296bc4ab1ce45a
+      internalID: 917193327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 337
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c1b25eca2a74886a39178f977e6163
+      internalID: -1245610816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 337
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916e68b5c07cf4f0b89c5b29f35cd8a6
+      internalID: -1099440615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_8
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 337
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c7be72cdff4482490b1a3072927ac2
+      internalID: -2126425563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 336
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fefb5568b7b40f9aa543484f4125da
+      internalID: -1129224968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 337
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60faf8b2c7c154e2599c00d75ff6bc3f
+      internalID: 1485028326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 336
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64533aa5d64754558a1f57ab26e84cb1
+      internalID: -902492927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_12
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 317
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81aa1a5fabca4dae8a082c2d27c1ce0
+      internalID: -1911829016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 317
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441167000a0f1448ba444f6f7902ea33
+      internalID: -896325964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_14
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aeaf7cf9570746a4b96b741691870e0
+      internalID: -398958901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_15
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 317
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bdbc458c45340768d0dfbb295455a4
+      internalID: 1779780751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_16
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 317
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03360ee6efa5542d1b6cb7427573f5da
+      internalID: 427765004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_17
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 317
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991fae0833db44ae7b4987a24faac450
+      internalID: 621332673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_18
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 317
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea8c1f0c34c048f0940b35e028b587f
+      internalID: -542443921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 317
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eca1049324748d6a13bf3ccbb59b22
+      internalID: 579101078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_20
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f27e10e7ed146aba81ee49ea133629
+      internalID: 275466525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_21
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 290
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e66eaa5cab0c4d0d88a15eb8832f8d5
+      internalID: 797731235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 290
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3b1318e6c544543ac0f7aee4ef8d85
+      internalID: -1872169554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_23
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 290
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841dd07d235b545debed4888b5827bcd
+      internalID: 1649113127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_24
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 290
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd16e797d7a3429fb1d50ddfb2b53fd
+      internalID: -33234147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_25
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 290
+        width: 49
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2529f7b0567b6469db2adf1b36e9b3ef
+      internalID: -2038873019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_26
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 290
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe2240dbfec84b0b833625ffedb5779
+      internalID: 1013588233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_27
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 290
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e500bff12fe1a42edb9429dbac402f3d
+      internalID: -71910385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_28
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 290
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7157e7cb2820846329d3349b17f98381
+      internalID: 1824519594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_29
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 236
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4040a2d229f42cc956649be65f5cb9
+      internalID: -104828454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_30
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 229
+        width: 56
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09f83ca3ef2a41bb99c8304c0d4521e
+      internalID: -1038180540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_31
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 213
+        width: 49
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612861b7290864fd596f5feba7df4865
+      internalID: -954878449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_32
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 212
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda3328b175b34d27b28ea95ca3e6917
+      internalID: -326532603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_33
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 212
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36bf497f4ddf4ff6b23010db5a6c109
+      internalID: 626895123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_34
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 175
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2321acd55f6b4c1d97083362b0045f4
+      internalID: 218924716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_35
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 144
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b13fd3d6c7a4c668a4ad62c52dfee8
+      internalID: -375998619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_36
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 144
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1618c05e0d84349f08b1aed20210a947
+      internalID: 1717743973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_37
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 144
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d5d5a5ee0d347fab6f1569036b0e28
+      internalID: 253763221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_38
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 105
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7506ac6b6fcee4484bd1c02bc21861d1
+      internalID: -1276375227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_39
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 105
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49948c517774d4ac7ac7912af5fdc8d3
+      internalID: 366168559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_40
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 105
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c9436843fc54989b4e65ab6270262e
+      internalID: -1981138562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_41
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 105
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d6f3826e424418e8c42c140a7a6750
+      internalID: -2007773686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_42
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 105
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6bc80de2bcc4bc0ab2dbbe11ec780d
+      internalID: -159632305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_43
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 105
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e304104c1f0145c98317fe20554896d
+      internalID: -1801277577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_44
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 77
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386d30fd9ab004830b4731cb9aa5f56d
+      internalID: -548957337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_45
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 76
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb904e9a923e47e79c2aa50e42f12b3
+      internalID: -1304773516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_46
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 76
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c00a0ba6cd346a3b59cec9bea22d43
+      internalID: -50715657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_47
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8812dcd4d4a4874ad8b8e15ed5d78d
+      internalID: -1301592457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_48
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 5
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200fbd4cc55ef48a5a8da4c9771ae7f2
+      internalID: 1536298456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_49
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 4
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037cefc3e2aa14ed09184a58f83bef46
+      internalID: 418588113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_50
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 4
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00075bc014d4e420ca78902a3d228ae6
+      internalID: -161502530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon__arceus_sprite_by_kotelen_dbc34tr_51
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 327
+        width: 182
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8d9ed9a15a642e5883a4f0174cc1f8
+      internalID: 717721347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_11: -902492927
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_45: -1304773516
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_12: -1911829016
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_23: 1649113127
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_37: 253763221
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_9: -1129224968
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_30: -1038180540
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_51: 717721347
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_28: 1824519594
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_18: -542443921
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_19: 579101078
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_46: -50715657
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_7: -1099440615
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_13: -896325964
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_27: -71910385
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_44: -548957337
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_21: 797731235
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_17: 621332673
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_47: -1301592457
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_42: -159632305
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_48: 1536298456
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_49: 418588113
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_26: 1013588233
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_36: 1717743973
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_38: -1276375227
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_16: 427765004
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_41: -2007773686
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_4: 1756793652
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_43: -1801277577
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_2: -249309011
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_15: 1779780751
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_31: -954878449
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_32: -326532603
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_24: -33234147
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_35: -375998619
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_50: -161502530
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_40: -1981138562
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_6: -1245610816
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_33: 626895123
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_0: -1485326593
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_10: 1485028326
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_20: 275466525
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_29: -104828454
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_34: 218924716
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_22: -1872169554
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_39: 366168559
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_14: -398958901
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_25: -2038873019
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_3: -935225260
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_1: -882670172
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_8: -2126425563
+      pokemon__arceus_sprite_by_kotelen_dbc34tr_5: 917193327
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

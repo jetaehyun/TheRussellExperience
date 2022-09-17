@@ -31,9 +31,12 @@ public class Entrance : MonoBehaviour
         if (inProximity && messageUi.decision == MessageUi.Click.ACCEPTED)
         {
 
-            if (lockedRoom)
+            if (lockedRoom ||
+            ((PlayerPrefs.GetInt("Key", 0) == 0 || PlayerPrefs.GetInt("Closet") == 0)) && entranceTo.ToString().Equals(SceneNames.NICK_CLOSET))
             {
-                messageUi.OpenMessageBox("The door appears to be locked...", false);
+                PlayerPrefs.SetInt("Closet", 1);
+                PlayerPrefs.Save();
+                messageUi.OpenMessageBox("This door needs a key...", false);
                 inProximity = false;
                 return;
             }

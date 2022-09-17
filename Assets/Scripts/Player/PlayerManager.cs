@@ -9,6 +9,7 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private GameObject willPrefab;
     [SerializeField] private GameObject johnnyPrefab;
     [SerializeField] private GameObject nickPrefab;
+    [SerializeField] private GameObject arceusPrefab;
     private static GameObject instance;
     public GameObject playerPrefab;
     private SceneSwitcher sceneSwitcher;
@@ -58,6 +59,9 @@ public class PlayerManager : MonoBehaviour
 
             if (initSpawnPoint == null) { return; }
             initPlayer(initSpawnPoint.transform.position);
+            PlayerPrefs.SetInt("Key", 0);
+            PlayerPrefs.SetInt("Closet", 0);
+            PlayerPrefs.Save();
             firstSpawn = true;
         }
 
@@ -112,6 +116,8 @@ public class PlayerManager : MonoBehaviour
                     return Instantiate(willPrefab, data.position, Quaternion.identity);
                 case "nick":
                     return Instantiate(nickPrefab, data.position, Quaternion.identity);
+                case "arceus":
+                    return Instantiate(arceusPrefab, data.position, Quaternion.identity);
                 default:
                     return null;
             }
